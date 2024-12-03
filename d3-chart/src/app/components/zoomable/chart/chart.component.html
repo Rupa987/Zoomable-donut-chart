@@ -1,0 +1,12 @@
+<p style="font-size: 30px">Chart Works!</p>
+
+<div>
+  <h2>Zoomable Donut Chart</h2>
+  <div id="chart">
+    <svg #chart width="960" height="500"></svg>
+  </div>
+</div>
+
+<ul>
+  <li *ngFor="let data of chartData">{{ data.name }}: {{ data.value }}</li>
+</ul>
